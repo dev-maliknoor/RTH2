@@ -190,14 +190,14 @@ export default function Layout({ children }: LayoutProps) {
 
           {/* Right Action CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
               className={`rounded-full ${scrolled ? "text-foreground/80 hover:text-secondary" : "text-white/90 hover:text-secondary"}`}
             >
               {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </Button>
+            </Button> */}
             <Link href="/contact">
               <Button className="bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground font-semibold px-6 py-5 rounded-full text-xs tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg">
                 Get in Touch
@@ -207,14 +207,14 @@ export default function Layout({ children }: LayoutProps) {
 
           {/* Mobile Menu Toggle */}
           <div className="flex lg:hidden items-center gap-2">
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
               className={`rounded-full ${scrolled ? "text-foreground/80 hover:text-secondary" : "text-white/90 hover:text-secondary"}`}
             >
               {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </Button>
+            </Button> */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 transition-colors duration-200 ${scrolled ? "text-foreground/80 hover:text-secondary" : "text-white/90 hover:text-secondary"}`}
