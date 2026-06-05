@@ -306,9 +306,9 @@ export default function Layout({ children }: LayoutProps) {
             {/* Branding Column */}
             <div className="lg:col-span-4 space-y-6">
               <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-secondary-foreground font-serif font-bold text-lg">
+                {/* <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-secondary-foreground font-serif font-bold text-lg">
                   R
-                </div>
+                </div> */}
                 <div>
                   <span className="block font-serif text-lg font-bold tracking-tight text-white">
                     RTH FOODS
